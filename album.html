@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPL 1 2026 - Album</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-text">RPL 1 2026</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="album.html" class="active">Album</a></li>
+        <li><a href="siswa.html">Siswa</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-header fade-in">
+      <div class="section-label">Galeri Foto</div>
+      <h1>Album <span class="text-accent">Kenangan</span></h1>
+      <p>Momen berharga kelas Rekayasa Perangkat Lunak 1 Angkatan 2026 — dari hari pertama hingga kelulusan.</p>
+    </div>
+
+    <section class="section">
+      <div class="album-grid">
+
+        <div class="album-card fade-in" data-folder="first-code" onclick="openAlbum(this)">
+          <div class="album-cover">
+            <div class="album-number" id="first-code">1</div>
+            <div class="album-count">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>0 foto</span>
+            </div>
+            <div class="album-cover-placeholder">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Belum ada foto</span>
+            </div>
+            <img src="img/album/cover/foto1.jpeg" alt="The First Code" onerror="this.style.display='none'">
+          </div>
+          <div class="album-info">
+            <h3>The First Code</h3>
+            <div class="album-subtitle">Masa Awal Sekolah</div>
+            <p class="album-desc">Foto-foto saat masa awal sekolah</p>
+            <span class="album-vibe">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Nostalgia & Kenangan Awal
+            </span>
+          </div>
+        </div>
+
+        <div class="album-card fade-in" data-folder="lab-life" onclick="openAlbum(this)">
+          <div class="album-cover">
+            <div class="album-number" id="daily-routine">2</div>
+            <div class="album-count">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>0 foto</span>
+            </div>
+            <div class="album-cover-placeholder">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Belum ada foto</span>
+            </div>
+            <img src="img/album/cover/foto2.jpeg" alt="Daily Routine & Lab Life" onerror="this.style.display='none'">
+          </div>
+          <div class="album-info">
+            <h3>Daily Routine & Lab Life</h3>
+            <div class="album-subtitle">Praktik Lab</div>
+            <p class="album-desc">Sebagai anak RPL, lab adalah rumah kedua. Serius di depan monitor, candid teman ketiduran di lab, momen kerja kelompok bikin project.</p>
+            <span class="album-vibe">
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+              Perjuangan & Kerja Sama Tim
+            </span>
+          </div>
+        </div>
+
+        <div class="album-card fade-in" data-folder="beyond-classroom" onclick="openAlbum(this)">
+          <div class="album-cover">
+            <div class="album-number" id="beyond-classroom">3</div>
+            <div class="album-count">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>0 foto</span>
+            </div>
+            <div class="album-cover-placeholder">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Belum ada foto</span>
+            </div>
+            <img src="img/album/cover/foto3.jpeg" alt="Beyond The Classroom" onerror="this.style.display='none'">
+          </div>
+          <div class="album-info">
+            <h3>Beyond The Classroom</h3>
+            <div class="album-subtitle">Class Meeting & Sport</div>
+            <p class="album-desc">Momen saat tidak belajar dan berkompetisi antar kelas, momen seru lomba class meeting setelah ujian selesai.</p>
+            <span class="album-vibe">
+              <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              Seru, Heboh & Penuh Energi
+            </span>
+          </div>
+        </div>
+
+        <div class="album-card fade-in" data-folder="wild-free" onclick="openAlbum(this)">
+          <div class="album-cover">
+            <div class="album-number" id="wild-free">4</div>
+            <div class="album-count">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>0 foto</span>
+            </div>
+            <div class="album-cover-placeholder">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Belum ada foto</span>
+            </div>
+            <img src="img/album/cover/foto4.jpeg" alt="Wild & Free" onerror="this.style.display='none'">
+          </div>
+          <div class="album-info">
+            <h3>Wild & Free</h3>
+            <div class="album-subtitle">Outing & Healing</div>
+            <p class="album-desc">Momen liburan atau jalan-jalan bareng satu kelas ke luar sekolah, momen bebas tanpa seragam.</p>
+            <span class="album-vibe">
+              <svg viewBox="0 0 24 24"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+              Kedekatan, Persahabatan & Santai
+            </span>
+          </div>
+        </div>
+
+        <div class="album-card fade-in" data-folder="together-forever" onclick="openAlbum(this)">
+          <div class="album-cover">
+            <div class="album-number" id="together-forever">5</div>
+            <div class="album-count">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>0 foto</span>
+            </div>
+            <div class="album-cover-placeholder">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Belum ada foto</span>
+            </div>
+            <img src="img/album/cover/foto5.jpeg" alt="Together Forever" onerror="this.style.display='none'">
+          </div>
+          <div class="album-info">
+            <h3>Together Forever</h3>
+            <div class="album-subtitle">Kumpulan Foto Bersama</div>
+            <p class="album-desc">Koleksi foto bareng sekelas di berbagai tempat dan momen. Bukti kalau RPL 1 itu selalu kompak dan solid sampai kapanpun.</p>
+            <span class="album-vibe">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              Kekeluargaan & Kebersamaan
+            </span>
+          </div>
+        </div>
+
+        <div class="album-card fade-in" onclick="window.open('https://youtu.be/zCSDbCoRPs0?si=Kk9_BmnjNw-tD4At', '_blank')">
+          <div class="album-cover">
+            <div class="album-number" id="YouTube">6</div>
+            <div class="album-count">
+              <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>YouTube</span>
+            </div>
+            <div class="album-cover-placeholder yt-placeholder">
+              <svg class="yt-icon" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+              <span>YouTube Channel</span>
+            </div>
+             <img src="img/youtube/foto bersama.jpeg" alt="Video Kenangan" onerror="this.style.display='none'">
+          </div>
+          <div class="album-info">
+            <h3>Video Kenangan</h3>
+            <div class="album-subtitle">YouTube Channel</div>
+            <p class="album-desc">Kumpulan video dokumentasi kelas RPL 1. Dari vlog harian, hingga momen-momen lucu yang terekam kamera.</p>
+            <span class="album-vibe">
+              <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Nonton & Subscribe
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">RPL 1 2026</div>
+          <p>Portal resmi kelas Rekayasa Perangkat Lunak 1 Angkatan 2026. Tempat menyimpan memori dan informasi.</p>
+          <div class="social-heading">Ikuti Kami</div>
+          <div class="footer-social">
+            <a class="social-item tiktok-item" href="https://www.tiktok.com/@_erpeel1" target="_blank" rel="noopener noreferrer" aria-label="TikTok RPL 1">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.48V13a8.28 8.28 0 005.58 2.16V11.7a4.83 4.83 0 01-3.77-1.76V6.69h3.77z"/></svg>
+              </span>
+              <span class="social-name">TikTok</span>
+            </a>
+            <a class="social-item ig-item" href="https://www.instagram.com/software_engineerr01" target="_blank" rel="noopener noreferrer" aria-label="Instagram RPL 1">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </span>
+              <span class="social-name">Instagram</span>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Halaman</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a href="siswa.html">Siswa</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Album Foto</h4>
+          <ul>
+            <li><a href="#first-code" onclick="return false">The First Code</a></li>
+            <li><a href="#daily-routine" onclick="return false">Daily Routine & Lab Life</a></li>
+            <li><a href="#beyond-classroom" onclick="return false">Beyond The Classroom</a></li>
+            <li><a href="#wild-free" onclick="return false">Wild &Free</a></li>
+            <li><a href="#together-forever" onclick="return false">Together Forever</a></li>
+            <li><a href="#YouTube" onclick="return false">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 RPL 1 — Semua hak dilindungi.</span>
+        <span>Dibuat oleh <a href="tentang.html">Kelas RPL 1 2026</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" onclick="closeLightbox()" aria-label="Tutup">&#10005;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" onclick="lbNav(-1)" aria-label="Foto sebelumnya">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div id="lbContent">
+      <img id="lbImg" src="" alt="" class="lb-hidden" />
+      <div id="lbEmpty" class="lb-empty lb-hidden">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        Belum ada foto di album ini.<br>Tambahkan foto ke folder untuk melihatnya di sini.
+      </div>
+    </div>
+    <button class="lb-nav lb-next" id="lbNext" onclick="lbNav(1)" aria-label="Foto berikutnya">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lb-counter" id="lbCounter"></div>
+    <button class="lb-download lb-hidden" id="lbDownload" onclick="lbDownload()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Unduh
+    </button>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
