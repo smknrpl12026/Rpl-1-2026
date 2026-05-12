@@ -734,7 +734,24 @@ document.addEventListener('DOMContentLoaded', () => {
       'img/album/together-forever/foto (108).jpeg',
       'img/album/together-forever/foto (109).jpeg',
       'img/album/together-forever/foto (110).jpeg',
-      'img/album/together-forever/foto (111).jpeg'
+      'img/album/together-forever/foto (111).jpeg',
+      'img/album/together-forever/foto (112).jpeg',
+      'img/album/together-forever/foto (113).jpeg',
+      'img/album/together-forever/foto (114).jpeg',
+      'img/album/together-forever/foto (115).jpeg',
+      'img/album/together-forever/foto (116).jpeg',
+      'img/album/together-forever/foto (117).jpeg',
+      'img/album/together-forever/foto (118).jpeg',
+      'img/album/together-forever/foto (119).jpeg',
+      'img/album/together-forever/foto (120).jpeg',
+      'img/album/together-forever/foto (121).jpeg',
+      'img/album/together-forever/foto (122).jpeg',
+      'img/album/together-forever/foto (123).jpeg',
+      'img/album/together-forever/foto (124).jpeg',
+      'img/album/together-forever/foto (125).jpeg',
+      'img/album/together-forever/foto (126).jpeg',
+      'img/album/together-forever/foto (127).jpeg',
+      'img/album/together-forever/foto (128).jpeg'
     ]
   };
 
